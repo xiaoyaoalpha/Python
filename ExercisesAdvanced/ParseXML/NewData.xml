@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Test>
+  <TestSet BU="CPBU" Product="H5C_VCSA" TestType="Regression" Build="" BuildType="" Branch="" Locale="zh_CN" HostOS="win2012r2u1" BrowserType="Chrome" Description="H5C G11n Automation" User="sur" StartTime="2017-08-24 22:38:07" Duration="0:05:33" Pass="4" Fail="0" Status="Complete">
+    <TestCase NO.="1" TCMSID="login" TestCase="LoginForH5C" Feature="ZZ-Test" TestPriority="p0" Description="Login H5C" MachineName="xiaoyaoEN" Duration="0:00:14">
+      <Verification NO.="1" Description="Open H5C" Actual="true" Expected="true"/>
+      <Verification NO.="2" Description="input username" Actual="true" Expected="true"/>
+      <Verification NO.="3" Description="input password" Actual="true" Expected="true"/>
+      <Verification NO.="4" Description="click submit" Actual="true" Expected="true"/>
+      <Verification NO.="5" Description="Verify Home Button is existing." Actual="true" Expected="true"/>
+    </TestCase>
+    <TestCase NO.="2" TCMSID="Storage_052" TestCase="IncreaseVMFSDatastoreWizard" Feature="ZZ-Test" TestPriority="p0" Description="Increase VMFS Datastore Wizard" MachineName="xiaoyaoEN" Duration="0:02:38">
+      <Verification NO.="1" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="2" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="3" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="4" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="5" Description="Click Host Configure Tab" Actual="true" Expected="true"/>
+      <Verification NO.="6" Description="Select Storage Adapters Tree Node" Actual="true" Expected="true"/>
+      <Verification NO.="7" Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true"/>
+      <Verification NO.="8" Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true"/>
+      <Verification NO.="9" Description="Click DDT Add Button" Actual="true" Expected="true"/>
+      <Verification NO.="10" Description="Verify Page Primary Title exists" Actual="true" Expected="true"/>
+      <Verification NO.="11" Description="Clean iSCSI Server Name" Actual="true" Expected="true"/>
+      <Verification NO.="12" Description="Input iSCSI Server Name" Actual="true" Expected="true"/>
+      <Verification NO.="13" Description="Click ok button in dialog-modal" Actual="true" Expected="true"/>
+      <Verification NO.="14" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="15" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="16" Description="Click Rescan Storage Button" Actual="true" Expected="true"/>
+      <Verification NO.="17" Description="Click ok button in dialog-modal" Actual="true" Expected="true"/>
+      <Verification NO.="18" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="19" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="20" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="21" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="22" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="23" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="24" Description="Click Action Button" Actual="true" Expected="true"/>
+      <Verification NO.="25" Description="Move Cursor on Storage Button" Actual="true" Expected="true"/>
+      <Verification NO.="26" Description="Move Cursor on New Datastore Button" Actual="true" Expected="true"/>
+      <Verification NO.="27" Description="Click New Datastore Button" Actual="true" Expected="true"/>
+      <Verification NO.="28" Description="Verify Wizard Title exists" Actual="true" Expected="true"/>
+      <Verification NO.="29" Description="Click VMFS Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="30" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="31" Description="Clean Datastore Name" Actual="true" Expected="true"/>
+      <Verification NO.="32" Description="Input Datastore Name" Actual="true" Expected="true"/>
+      <Verification NO.="33" Description="Select Disks/Luns List Item" Actual="true" Expected="true"/>
+      <Verification NO.="34" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="35" Description="Select VMFS Version" Actual="true" Expected="true"/>
+      <Verification NO.="36" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="37" Description="Select Use All Available Partitions Option" Actual="true" Expected="true"/>
+      <Verification NO.="38" Description="Clean Datastore Size" Actual="true" Expected="true"/>
+      <Verification NO.="39" Description="Input Datastore Size" Actual="true" Expected="true"/>
+      <Verification NO.="40" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="41" Description="Click finish button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="42" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="43" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="44" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="45" Description="Click VC Datastores Tab" Actual="true" Expected="true"/>
+      <Verification NO.="46" Description="Click Datastores Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="47" Description="Click Datastore List Item" Actual="true" Expected="true"/>
+      <Verification NO.="48" Description="Click Datastore Configure Tab" Actual="true" Expected="true"/>
+      <Verification NO.="49" Description="Select General Tree Node" Actual="true" Expected="true"/>
+      <Verification NO.="50" Description="Click Increase Datastore Capacity Button" Actual="true" Expected="true"/>
+      <Verification NO.="51" Description="Verify Wizard Title exists" Actual="true" Expected="true"/>
+      <Verification NO.="52" Description="Select Disk List Item" Actual="true" Expected="true"/>
+      <Verification NO.="53" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="54" Description="Select Use Free Space Option" Actual="true" Expected="true"/>
+      <Verification NO.="55" Description="Clean Increase Size" Actual="true" Expected="true"/>
+      <Verification NO.="56" Description="Input Increase Size" Actual="true" Expected="true"/>
+      <Verification NO.="57" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="58" Description="Click finish button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="59" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="60" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="61" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="62" Description="Verify Datastore Capacity" Actual="true" Expected="true"/>
+      <Verification NO.="63" Description="Verify Datastore Capacity" Actual="true" Expected="true"/>
+      <Verification NO.="64" Description="Verify Datastore Capacity" Actual="true" Expected="true"/>
+      <Verification NO.="65" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="66" Description="Click VC Datastores Tab" Actual="true" Expected="true"/>
+      <Verification NO.="67" Description="Click Datastores Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="68" Description="Click Datastore List Item" Actual="true" Expected="true"/>
+      <Verification NO.="69" Description="Click Action Button" Actual="true" Expected="true"/>
+      <Verification NO.="70" Description="Click Delete Datastore Button" Actual="true" Expected="true"/>
+      <Verification NO.="71" Description="Click Submit button in dialog" Actual="true" Expected="true"/>
+      <Verification NO.="72" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="73" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="74" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="75" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="76" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="77" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="78" Description="Click Host Datastores Tab" Actual="true" Expected="true"/>
+      <Verification NO.="79" Description="Verify Datastore Does Not Exist" Actual="true" Expected="true"/>
+      <Verification NO.="80" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="81" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="82" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="83" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="84" Description="Click Host Configure Tab" Actual="true" Expected="true"/>
+      <Verification NO.="85" Description="Select Storage Adapters Tree Node" Actual="true" Expected="true"/>
+      <Verification NO.="86" Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true"/>
+      <Verification NO.="87" Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true"/>
+      <Verification NO.="88" Description="Select iSCSI Server List Item" Actual="true" Expected="true"/>
+      <Verification NO.="89" Description="Click DDT Remove Button" Actual="true" Expected="true"/>
+      <Verification NO.="90" Description="Click ok button in dialog-modal" Actual="true" Expected="true"/>
+      <Verification NO.="91" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="92" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="93" Description="Verify iSCSI Server Not Existed" Actual="true" Expected="true"/>
+    </TestCase>
+    <TestCase NO.="3" TCMSID="Storage_053" TestCase="ConfigureVMFSStorageIOControl" Feature="ZZ-Test" TestPriority="p1" Description="Configure VMFS Storage I/O Control" MachineName="xiaoyaoEN" Duration="0:02:25">
+      <Verification NO.="1" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="2" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="3" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="4" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="5" Description="Click Host Configure Tab" Actual="true" Expected="true"/>
+      <Verification NO.="6" Description="Select Storage Adapters Tree Node" Actual="true" Expected="true"/>
+      <Verification NO.="7" Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true"/>
+      <Verification NO.="8" Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true"/>
+      <Verification NO.="9" Description="Click DDT Add Button" Actual="true" Expected="true"/>
+      <Verification NO.="10" Description="Verify Page Primary Title exists" Actual="true" Expected="true"/>
+      <Verification NO.="11" Description="Clean iSCSI Server Name" Actual="true" Expected="true"/>
+      <Verification NO.="12" Description="Input iSCSI Server Name" Actual="true" Expected="true"/>
+      <Verification NO.="13" Description="Click ok button in dialog-modal" Actual="true" Expected="true"/>
+      <Verification NO.="14" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="15" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="16" Description="Click Rescan Storage Button" Actual="true" Expected="true"/>
+      <Verification NO.="17" Description="Click ok button in dialog-modal" Actual="true" Expected="true"/>
+      <Verification NO.="18" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="19" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="20" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="21" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="22" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="23" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="24" Description="Click Action Button" Actual="true" Expected="true"/>
+      <Verification NO.="25" Description="Move Cursor on Storage Button" Actual="true" Expected="true"/>
+      <Verification NO.="26" Description="Move Cursor on New Datastore Button" Actual="true" Expected="true"/>
+      <Verification NO.="27" Description="Click New Datastore Button" Actual="true" Expected="true"/>
+      <Verification NO.="28" Description="Verify Wizard Title exists" Actual="true" Expected="true"/>
+      <Verification NO.="29" Description="Click VMFS Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="30" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="31" Description="Clean Datastore Name" Actual="true" Expected="true"/>
+      <Verification NO.="32" Description="Input Datastore Name" Actual="true" Expected="true"/>
+      <Verification NO.="33" Description="Select Disks/Luns List Item" Actual="true" Expected="true"/>
+      <Verification NO.="34" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="35" Description="Select VMFS Version" Actual="true" Expected="true"/>
+      <Verification NO.="36" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="37" Description="Select Use All Available Partitions Option" Actual="true" Expected="true"/>
+      <Verification NO.="38" Description="Clean Datastore Size" Actual="true" Expected="true"/>
+      <Verification NO.="39" Description="Input Datastore Size" Actual="true" Expected="true"/>
+      <Verification NO.="40" Description="Click next button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="41" Description="Click finish button in wizardpage" Actual="true" Expected="true"/>
+      <Verification NO.="42" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="43" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="44" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="45" Description="Click VC Datastores Tab" Actual="true" Expected="true"/>
+      <Verification NO.="46" Description="Click Datastores Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="47" Description="Click Datastore List Item" Actual="true" Expected="true"/>
+      <Verification NO.="48" Description="Click Datastore Configure Tab" Actual="true" Expected="true"/>
+      <Verification NO.="49" Description="Select General Tree Node" Actual="true" Expected="true"/>
+      <Verification NO.="50" Description="Click Edit Datastore Capabilities Button" Actual="true" Expected="true"/>
+      <Verification NO.="51" Description="Verify Page Primary Title exists" Actual="true" Expected="true"/>
+      <Verification NO.="52" Description="Click Enable IO Control And Statistics Collection Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="53" Description="Click ok button in dialog-modal" Actual="true" Expected="true"/>
+      <Verification NO.="54" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="55" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="56" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="57" Description="Verify Storage IO Control Primary Status" Actual="true" Expected="true"/>
+      <Verification NO.="58" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="59" Description="Click VC Datastores Tab" Actual="true" Expected="true"/>
+      <Verification NO.="60" Description="Click Datastores Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="61" Description="Click Datastore List Item" Actual="true" Expected="true"/>
+      <Verification NO.="62" Description="Click Action Button" Actual="true" Expected="true"/>
+      <Verification NO.="63" Description="Click Delete Datastore Button" Actual="true" Expected="true"/>
+      <Verification NO.="64" Description="Click Submit button in dialog" Actual="true" Expected="true"/>
+      <Verification NO.="65" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="66" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="67" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="68" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="69" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="70" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="71" Description="Click Host Datastores Tab" Actual="true" Expected="true"/>
+      <Verification NO.="72" Description="Verify Datastore Does Not Exist" Actual="true" Expected="true"/>
+      <Verification NO.="73" Description="Click VC Tree node" Actual="true" Expected="true"/>
+      <Verification NO.="74" Description="Click VC Host Clusters Tab" Actual="true" Expected="true"/>
+      <Verification NO.="75" Description="Click Hosts Radio Button" Actual="true" Expected="true"/>
+      <Verification NO.="76" Description="Click Hosts List Item" Actual="true" Expected="true"/>
+      <Verification NO.="77" Description="Click Host Configure Tab" Actual="true" Expected="true"/>
+      <Verification NO.="78" Description="Select Storage Adapters Tree Node" Actual="true" Expected="true"/>
+      <Verification NO.="79" Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true"/>
+      <Verification NO.="80" Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true"/>
+      <Verification NO.="81" Description="Select iSCSI Server List Item" Actual="true" Expected="true"/>
+      <Verification NO.="82" Description="Click DDT Remove Button" Actual="true" Expected="true"/>
+      <Verification NO.="83" Description="Click ok button in dialog-modal" Actual="true" Expected="true"/>
+      <Verification NO.="84" Description="Click Refresh button" Actual="true" Expected="true"/>
+      <Verification NO.="85" Description="Verify Latest Recent Task Complete" Actual="true" Expected="true"/>
+      <Verification NO.="86" Description="Verify iSCSI Server Not Existed" Actual="true" Expected="true"/>
+    </TestCase>
+    <TestCase NO.="4" TCMSID="Logoff" TestCase="Logoff" Feature="ZZ-Test" TestPriority="p0" Description="Logoff browser" MachineName="xiaoyaoEN" Duration="0:00:07">
+      <Verification NO.="1" Description="Double Click username" Actual="true" Expected="true"/>
+      <Verification NO.="2" Description="Click logout button" Actual="true" Expected="true"/>
+      <Verification NO.="3" Description="verify input username displays, logoff is succeed" Actual="true" Expected="true"/>
+      <Verification NO.="4" Description="Close browser" Actual="true" Expected="true"/>
+    </TestCase>
+  </TestSet>
+</Test>

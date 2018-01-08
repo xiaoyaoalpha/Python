@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Test>
+  <TestSet Automation="true" BU="CPBU" Product="H5C_VCSA" ReleaseNumber="2016" BuildID="3251720" Language="Chinese Simplify" Locale="zh_CN" HostOS="win2012r2u1" HostOSPlatform="x64" BrowserType="Chrome" BrowserVerNo="54.0.2840.59 m" BrowserPlatform="x64" TestType="Regression" Description="H5C G11n Automation" User="sur" StartTime="2017-08-24 22:38:07" Validation="true" Remark="none" EndTime="2017-08-24 22:43:40" Result="PASS">
+    <TestCase TCMSID="login" Name="LoginForH5C" Feature="ZZ-Test" TestPriority="p0" Type="UI" Method="Automation" Description="Login H5C" MachineName="xiaoyaoEN" StartTime="2017-08-24 22:38:07" Validation="1" EndTime="2017-08-24 22:38:21" Result="PASS">
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Open H5C"/>
+      <Verification Description="Open H5C" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="input username"/>
+      <Verification Description="input username" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="input password"/>
+      <Verification Description="input password" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="click submit"/>
+      <Verification Description="click submit" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Home Button is existing."/>
+      <Verification Description="Verify Home Button is existing." Actual="true" Expected="true" Result="TRUE"/>
+    </TestCase>
+    <TestCase TCMSID="Storage_052" Name="IncreaseVMFSDatastoreWizard" Feature="ZZ-Test" TestPriority="p0" Type="UI" Method="Automation" Description="Increase VMFS Datastore Wizard" MachineName="xiaoyaoEN" StartTime="2017-08-24 22:38:24" Validation="1" EndTime="2017-08-24 22:41:02" Result="PASS">
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Host Configure Tab"/>
+      <Verification Description="Click Host Configure Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Storage Adapters Tree Node"/>
+      <Verification Description="Select Storage Adapters Tree Node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter List Item"/>
+      <Verification Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab"/>
+      <Verification Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click DDT Add Button"/>
+      <Verification Description="Click DDT Add Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Page Primary Title exists"/>
+      <Verification Description="Verify Page Primary Title exists" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Clean iSCSI Server Name"/>
+      <Verification Description="Clean iSCSI Server Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Input iSCSI Server Name"/>
+      <Verification Description="Input iSCSI Server Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click ok button in dialog-modal"/>
+      <Verification Description="Click ok button in dialog-modal" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Rescan Storage Button"/>
+      <Verification Description="Click Rescan Storage Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click ok button in dialog-modal"/>
+      <Verification Description="Click ok button in dialog-modal" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Action Button"/>
+      <Verification Description="Click Action Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Move Cursor on Storage Button"/>
+      <Verification Description="Move Cursor on Storage Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Move Cursor on New Datastore Button"/>
+      <Verification Description="Move Cursor on New Datastore Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click New Datastore Button"/>
+      <Verification Description="Click New Datastore Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Wizard Title exists"/>
+      <Verification Description="Verify Wizard Title exists" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VMFS Radio Button"/>
+      <Verification Description="Click VMFS Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Clean Datastore Name"/>
+      <Verification Description="Clean Datastore Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Input Datastore Name"/>
+      <Verification Description="Input Datastore Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Disks/Luns List Item"/>
+      <Verification Description="Select Disks/Luns List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select VMFS Version"/>
+      <Verification Description="Select VMFS Version" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Use All Available Partitions Option"/>
+      <Verification Description="Select Use All Available Partitions Option" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Clean Datastore Size"/>
+      <Verification Description="Clean Datastore Size" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Input Datastore Size"/>
+      <Verification Description="Input Datastore Size" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click finish button in wizardpage"/>
+      <Verification Description="Click finish button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Datastores Tab"/>
+      <Verification Description="Click VC Datastores Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastores Radio Button"/>
+      <Verification Description="Click Datastores Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastore List Item"/>
+      <Verification Description="Click Datastore List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastore Configure Tab"/>
+      <Verification Description="Click Datastore Configure Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select General Tree Node"/>
+      <Verification Description="Select General Tree Node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Increase Datastore Capacity Button"/>
+      <Verification Description="Click Increase Datastore Capacity Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Wizard Title exists"/>
+      <Verification Description="Verify Wizard Title exists" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Disk List Item"/>
+      <Verification Description="Select Disk List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Use Free Space Option"/>
+      <Verification Description="Select Use Free Space Option" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Clean Increase Size"/>
+      <Verification Description="Clean Increase Size" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Input Increase Size"/>
+      <Verification Description="Input Increase Size" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click finish button in wizardpage"/>
+      <Verification Description="Click finish button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Datastore Capacity"/>
+      <Verification Description="Verify Datastore Capacity" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Datastore Capacity"/>
+      <Verification Description="Verify Datastore Capacity" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Datastore Capacity"/>
+      <Verification Description="Verify Datastore Capacity" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Datastores Tab"/>
+      <Verification Description="Click VC Datastores Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastores Radio Button"/>
+      <Verification Description="Click Datastores Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastore List Item"/>
+      <Verification Description="Click Datastore List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Action Button"/>
+      <Verification Description="Click Action Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Delete Datastore Button"/>
+      <Verification Description="Click Delete Datastore Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Submit button in dialog"/>
+      <Verification Description="Click Submit button in dialog" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Host Datastores Tab"/>
+      <Verification Description="Click Host Datastores Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Datastore Does Not Exist"/>
+      <Warn Description="The web element &quot;XPATH = //*[@id='center-pane']//*[contains(text(),'DatastoreiSCSI_CN01_ôéà???ßü??????ÑÇª')]&quot; is not localted"/>
+      <Verification Description="Verify Datastore Does Not Exist" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Host Configure Tab"/>
+      <Verification Description="Click Host Configure Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Storage Adapters Tree Node"/>
+      <Verification Description="Select Storage Adapters Tree Node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter List Item"/>
+      <Verification Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab"/>
+      <Verification Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select iSCSI Server List Item"/>
+      <Verification Description="Select iSCSI Server List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click DDT Remove Button"/>
+      <Verification Description="Click DDT Remove Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click ok button in dialog-modal"/>
+      <Verification Description="Click ok button in dialog-modal" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify iSCSI Server Not Existed"/>
+      <Warn Description="The web element &quot;XPATH = //div[@id='adapterTargetsGrid']//td[@role='gridcell' and contains(text(),'10.162.18.24')]&quot; is not localted"/>
+      <Verification Description="Verify iSCSI Server Not Existed" Actual="true" Expected="true" Result="TRUE"/>
+    </TestCase>
+    <TestCase TCMSID="Storage_053" Name="ConfigureVMFSStorageIOControl" Feature="ZZ-Test" TestPriority="p1" Type="UI" Method="Automation" Description="Configure VMFS Storage I/O Control" MachineName="xiaoyaoEN" StartTime="2017-08-24 22:41:04" Validation="1" EndTime="2017-08-24 22:43:29" Result="PASS">
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Host Configure Tab"/>
+      <Verification Description="Click Host Configure Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Storage Adapters Tree Node"/>
+      <Verification Description="Select Storage Adapters Tree Node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter List Item"/>
+      <Verification Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab"/>
+      <Verification Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click DDT Add Button"/>
+      <Verification Description="Click DDT Add Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Page Primary Title exists"/>
+      <Verification Description="Verify Page Primary Title exists" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Clean iSCSI Server Name"/>
+      <Verification Description="Clean iSCSI Server Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Input iSCSI Server Name"/>
+      <Verification Description="Input iSCSI Server Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click ok button in dialog-modal"/>
+      <Verification Description="Click ok button in dialog-modal" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Rescan Storage Button"/>
+      <Verification Description="Click Rescan Storage Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click ok button in dialog-modal"/>
+      <Verification Description="Click ok button in dialog-modal" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Action Button"/>
+      <Verification Description="Click Action Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Move Cursor on Storage Button"/>
+      <Verification Description="Move Cursor on Storage Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Move Cursor on New Datastore Button"/>
+      <Verification Description="Move Cursor on New Datastore Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click New Datastore Button"/>
+      <Verification Description="Click New Datastore Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Wizard Title exists"/>
+      <Verification Description="Verify Wizard Title exists" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VMFS Radio Button"/>
+      <Verification Description="Click VMFS Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Clean Datastore Name"/>
+      <Verification Description="Clean Datastore Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Input Datastore Name"/>
+      <Verification Description="Input Datastore Name" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Disks/Luns List Item"/>
+      <Verification Description="Select Disks/Luns List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select VMFS Version"/>
+      <Verification Description="Select VMFS Version" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Use All Available Partitions Option"/>
+      <Verification Description="Select Use All Available Partitions Option" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Clean Datastore Size"/>
+      <Verification Description="Clean Datastore Size" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Input Datastore Size"/>
+      <Verification Description="Input Datastore Size" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click next button in wizardpage"/>
+      <Verification Description="Click next button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click finish button in wizardpage"/>
+      <Verification Description="Click finish button in wizardpage" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Datastores Tab"/>
+      <Verification Description="Click VC Datastores Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastores Radio Button"/>
+      <Verification Description="Click Datastores Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastore List Item"/>
+      <Verification Description="Click Datastore List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastore Configure Tab"/>
+      <Verification Description="Click Datastore Configure Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select General Tree Node"/>
+      <Verification Description="Select General Tree Node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Edit Datastore Capabilities Button"/>
+      <Verification Description="Click Edit Datastore Capabilities Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Page Primary Title exists"/>
+      <Verification Description="Verify Page Primary Title exists" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Enable IO Control And Statistics Collection Radio Button"/>
+      <Verification Description="Click Enable IO Control And Statistics Collection Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click ok button in dialog-modal"/>
+      <Verification Description="Click ok button in dialog-modal" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Storage IO Control Primary Status"/>
+      <Verification Description="Verify Storage IO Control Primary Status" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Datastores Tab"/>
+      <Verification Description="Click VC Datastores Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastores Radio Button"/>
+      <Verification Description="Click Datastores Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Datastore List Item"/>
+      <Verification Description="Click Datastore List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Action Button"/>
+      <Verification Description="Click Action Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Delete Datastore Button"/>
+      <Verification Description="Click Delete Datastore Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Submit button in dialog"/>
+      <Verification Description="Click Submit button in dialog" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Host Datastores Tab"/>
+      <Verification Description="Click Host Datastores Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Datastore Does Not Exist"/>
+      <Warn Description="The web element &quot;XPATH = //*[@id='center-pane']//*[contains(text(),'DatastoreiSCSI_CN01_ôéà???ßü??????ÑÇª')]&quot; is not localted"/>
+      <Verification Description="Verify Datastore Does Not Exist" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Tree node"/>
+      <Verification Description="Click VC Tree node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click VC Host Clusters Tab"/>
+      <Verification Description="Click VC Host Clusters Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts Radio Button"/>
+      <Verification Description="Click Hosts Radio Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Hosts List Item"/>
+      <Verification Description="Click Hosts List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Host Configure Tab"/>
+      <Verification Description="Click Host Configure Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select Storage Adapters Tree Node"/>
+      <Verification Description="Select Storage Adapters Tree Node" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter List Item"/>
+      <Verification Description="Click iSCSI Software Adapter List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab"/>
+      <Verification Description="Click iSCSI Software Adapter Dynamic Discovery Targets Tab" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Select iSCSI Server List Item"/>
+      <Verification Description="Select iSCSI Server List Item" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click DDT Remove Button"/>
+      <Verification Description="Click DDT Remove Button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click ok button in dialog-modal"/>
+      <Verification Description="Click ok button in dialog-modal" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click Refresh button"/>
+      <Verification Description="Click Refresh button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify Latest Recent Task Complete"/>
+      <Verification Description="Verify Latest Recent Task Complete" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Verify iSCSI Server Not Existed"/>
+      <Warn Description="The web element &quot;XPATH = //div[@id='adapterTargetsGrid']//td[@role='gridcell' and contains(text(),'10.162.18.24')]&quot; is not localted"/>
+      <Verification Description="Verify iSCSI Server Not Existed" Actual="true" Expected="true" Result="TRUE"/>
+    </TestCase>
+    <TestCase TCMSID="Logoff" Name="Logoff" Feature="ZZ-Test" TestPriority="p0" Type="UI" Method="Automation" Description="Logoff browser" MachineName="xiaoyaoEN" StartTime="2017-08-24 22:43:31" Validation="1" EndTime="2017-08-24 22:43:38" Result="PASS">
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Double Click username"/>
+      <Verification Description="Double Click username" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Click logout button"/>
+      <Verification Description="Click logout button" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="verify input username displays, logoff is succeed"/>
+      <Verification Description="verify input username displays, logoff is succeed" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Wait for element rendering"/>
+      <Verification Description="Wait for element rendering" Actual="true" Expected="true" Result="TRUE"/>
+      <Comment Description="Close browser"/>
+      <Verification Description="Close browser" Actual="true" Expected="true" Result="TRUE"/>
+    </TestCase>
+  </TestSet>
+</Test>

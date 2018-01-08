@@ -1,0 +1,106 @@
+{
+    "NGC_172.16.171.210" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.171.210",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "171.210_VCSA_\u8868\u30dd\u3042A\u4e2d\u0152\u00e9\u9dd7\u505cB\u900d\u00dc\u00df\u00e0\u00f9\u00aa\u00f1\ubb34\ud734\u315c\ub9e4"
+    },
+    "NGC_172.16.171.213" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.171.213",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "171.213_Client"
+    },
+    "NGC_172.16.171.224" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.171.224",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "171.224_KB/GA/Temp/Storage"
+    },
+    "NGC_172.16.171.225" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.171.225",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "171.225_CSWIN"
+    },
+    "NGC_172.16.171.226" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.171.226",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "171.226_VC_CISWin"
+    },
+    "NGC_172.16.171.227" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.171.227",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "171.227_VC_Esxi_\u9dd7\u0152\u00e9\u505cB\u900d\u00dc\u00df\u00e0\u00f9\u3042A\u4e2d\u30dd\u8868\u00aa\u00f1\ub300\ud55c\u3400"
+    },
+    "NGC_172.16.172.221" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.172.221",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "172.221_Client"
+    },
+    "NGC_172.16.172.228" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.172.221",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "172.221_Client"
+    },
+    "NGC_172.16.172.240" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.172.240",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "172.240_Client_Common"
+    },
+    "NGC_172.16.172.242" : {
+        "Owner" : "NGC",
+        "HostIP" : "172.16.172.242",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "172.242_Client_Common"
+    },
+    "VUM_172.16.170.201_01" : {
+        "Owner" : "VUM",
+        "HostIP" : "172.16.170.201",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "JA\uff6c\u7821\u6764\u3081\u9945\u30b1\uff97\u8ec6\ufa7e\u50f5\uff94\u307f\uff73\uff84\u30e7"
+    },
+    "VUM_172.16.170.201_02" : {
+        "Owner" : "VUM",
+        "HostIP" : "172.16.170.201",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "\u624b\u52a8\u00ed\u00f3\u25cb\uc55b\ud48f\u00e9\u00e8\u00e8\u00fc\u00f6\u00e4\u5c4b\u6de4\u8868\u5186"
+    },
+    "VUM_172.16.172.222" : {
+        "Owner" : "VUM",
+        "HostIP" : "172.16.170.222",
+        "username": "root",
+        "password": "@WSX3edc",
+        "NetworkName" : "VM Network",
+        "DatastoreName" : "222datastore"
+    }
+}
